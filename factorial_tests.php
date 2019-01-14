@@ -1,6 +1,6 @@
 <?php 
 include "fact.php";
-
+include "version.php"
 
 
 function test($input,$output){
@@ -17,3 +17,4 @@ $rez=str_count($input);
 test(15,3); echo "\n";
 test(0,0);echo "\n";
 test(-3,0);
+
