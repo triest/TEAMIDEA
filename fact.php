@@ -10,19 +10,6 @@ function factofialpp($number){
 	}
 }	
 
-function count_zerro($input){
-$num=factofialpp($count);
-$ost='';
-$count=0;
-while ($ost==0 and $num>10){
-	echo "ost: "+$ost;
-	echo "num"+$num;
-	$ost=$num%10;
-	$count++;
-	$num=intdiv($num, 10);
-};
-return $count;
-}
 
 function str_count($input){
     $input=factofialpp($input);
@@ -36,7 +23,6 @@ while ($lastchar=='0') {
 	$input=substr($input,0, -1);
 }
 return $count-1;
-
 
 }
 
